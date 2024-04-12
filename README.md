@@ -8,9 +8,9 @@ Currently this works for latin script.
 ### Usage
 
 ```python
->>> from accent_remover import accent_remover
+>>> from accent_remover import remove_accents
 >>> s = "My name is André and my name breaks URLs"
->>> new_s = accent_remover(s)
+>>> new_s = remove_accents(s)
 "My name is Andre and my name breaks URLs"
 ```
 
