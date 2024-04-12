@@ -11,6 +11,7 @@ Currently this works for latin script.
 >>> from accent_remover import remove_accents
 >>> s = "My name is André and my name breaks URLs"
 >>> new_s = remove_accents(s)
+>>> print(new_s)
 "My name is Andre and my name breaks URLs"
 ```
 
